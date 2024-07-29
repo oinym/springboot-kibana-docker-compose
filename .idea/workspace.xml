@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78b669ef-b813-4dd8-9c47-aae9a89407ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-Compose.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mysql/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/META-INF/maven/com.example/accessing-data-mysql-complete/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/META-INF/maven/com.example/accessing-data-mysql-complete/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/AccessingDataMysqlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/AccessingDataMysqlApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-mysql/target/classes/com/example/accessingdatamysql/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mysql/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="MavenRunConfiguration" name="start" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2jm5fd4qixFt9WMfSwMHGsvcvS7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.ci.executor": "Run",
+    "Maven.start.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/myProjects/eclipse-workspace/Docker-Compose/java-mysql",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Maven.start">
+    <configuration name="ci" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
+            <option name="checksumPolicy" value="NOT_SET" />
+            <option name="customMavenHome" />
+            <option name="emulateTerminal" value="false" />
+            <option name="failureBehavior" value="NOT_SET" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+            <option name="mavenHomeTypeForPersistence" value="BUNDLED3" />
+            <option name="nonRecursive" value="false" />
+            <option name="outputLevel" value="INFO" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="showDialogWithAdvancedSettings" value="false" />
+            <option name="threads" />
+            <option name="useMavenConfig" value="true" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="17" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/java-mysql" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.ci" />
+      <item itemvalue="Maven.start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b669ef-b813-4dd8-9c47-aae9a89407ef" name="Changes" comment="" />
+      <created>1721979516136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721979516136</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-mysql/src/main/java/com/example/accessingdatamysql/MainController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-mysql/src/main/java/com/example/accessingdatamysql/MainController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
