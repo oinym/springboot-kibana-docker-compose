@@ -1,2 +1,4 @@
 #mysql-data/
-#/.metadata/
+.metadata/
+*/target
+*.class
