@@ -1,0 +1,14 @@
+{
+    "@timestamp": "2024-08-09T08:58:00.118Z",
+    "log.level": "INFO",
+    "message": "[user] creating index, cause [api], templates [], shards [1]/[1]",
+    "ecs.version": "1.2.0",
+    "service.name": "ES_ECS",
+    "event.dataset": "elasticsearch.server",
+    "process.thread.name": "elasticsearch[ade695566269][masterService#updateTask][T#314]",
+    "log.logger": "org.elasticsearch.cluster.metadata.MetadataCreateIndexService",
+    "elasticsearch.cluster.uuid": "HqLWjvv_Tp2-QQOpweOC1Q",
+    "elasticsearch.node.id": "5cQSo4UTRXGodscj-oqKeQ",
+    "elasticsearch.node.name": "ade695566269",
+    "elasticsearch.cluster.name": "docker-cluster"
+}
