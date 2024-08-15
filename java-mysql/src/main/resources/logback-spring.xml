@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
+    <appender name="Console"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <Pattern>%red(%d{dd/MM/yyyy' 'HH:mm:ss.ss}) %highlight(%-5level) [%thread]
+                    [%yellow(%logger{50}.%M\(%line\))] : %msg%n%throwable</Pattern>
+                <charset>utf8</charset>
+
+            </layout>
+        </encoder>
+    </appender>
+
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{dd-MM-yyyy HH:mm:ss} [%thread] [%-5level] %logger{36} - %msg traceId=%X{traceId} spanId=%X{spanId}%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg
+                traceId=%X{traceId} spanId=%X{spanId}%n</pattern>
         </encoder>
     </appender>
 
@@ -11,12 +24,19 @@
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <!-- Logstash host and port -->
         <destination>localhost:5000</destination>
-        <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <!-- <Pattern>%msg%n</Pattern> -->
+            <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter">
+                <prettyPrint>true</prettyPrint>
+            </jsonFormatter>
+        </layout>
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
     </appender>
 
     <root level="info">
-        <appender-ref ref="STDOUT"/>
-        <appender-ref ref="LOGSTASH"/>
+        <!-- <appender-ref ref="Console" /> -->
+        <appender-ref ref="LOGSTASH" />
+        <appender-ref ref="STDOUT" />
     </root>
 
 </configuration>

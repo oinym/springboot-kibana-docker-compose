@@ -1,5 +1,7 @@
 package com.example.accessingdatamysql.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +20,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.web.bind.annotation.PutMapping;
@@ -37,9 +40,10 @@ public class MainController {
 
     @GetMapping(path = "/vitality/{productId}", produces = "application/json")
     public ResponseEntity<Object> getUserprofile(HttpServletRequest request, @PathVariable String productId) {
-        log.info("Example  info  message -> Received product ID {}", productId);
-        log.debug("Example debug message -> Received product ID {}", productId);
-        log.error("{\"ecs\":{\"firstName\":\"ofir\"}}");
+        log.info("Example  info  message -> Received product ID {}" + productId);
+        // log.debug("Example debug message -> Received product ID {}" +
+        // request.getPathInfo());
+        // log.error("{\"ecs\":{\"firstName\":\"ofir\"}}");
 
         return new ResponseEntity<>(request.getHeader("x-transaction-id"), HttpStatus.OK);
     }
@@ -57,8 +61,17 @@ public class MainController {
 
     @GetMapping
     public @ResponseBody Iterable<User> getAllUsers(HttpServletRequest request) {
-        log.info(request.getMethod() + request.getLocalName());
-        return repository.findAll();
+        List<User> users = repository.findAll();
+
+        EcsModel ecs = new EcsModel();
+        ecs.setMsg("Got a hit");
+        try {
+
+            log.info((new ObjectMapper().writer().withDefaultPrettyPrinter()).writeValueAsString(ecs));
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return users;
     }
 
     @GetMapping(path = "/{id}")
@@ -79,17 +92,9 @@ public class MainController {
     }
 
     @PostMapping(path = "/call", produces = "application/json")
-    public EcsModel doSomeBodyProcessing(@RequestBody EcsModel entity
-    , @RequestHeader("X-Id") String xId
-    ) {
-        try {
-            log.info(new ObjectMapper().writeValueAsString(entity));
-        } catch (JsonProcessingException e) {
+    public ResponseEntity doSomeBodyProcessing(@RequestHeader("X-Id") String xId) {
 
-            e.printStackTrace();
-        }
-
-        return entity;
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
 }

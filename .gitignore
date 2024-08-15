@@ -1,4 +1,6 @@
 #mysql-data/
-.metadata\
-*\target
-*.class
+# .metadata\
+# *\target
+# *.class
+# *.log
+!*

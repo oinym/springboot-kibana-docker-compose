@@ -10,4 +10,6 @@
     "java.format.settings.url": ".vscode/java-formatter.xml",
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.jdt.ls.java.home": "C:/Program Files/Java/jdk-17",
+    "spring-boot.ls.java.home": "C:/Program Files/Java/jdk-17",
+    "files.autoSave": "afterDelay"
 }
