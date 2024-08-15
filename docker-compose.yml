@@ -38,6 +38,7 @@ services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.22
     container_name: elasticsearch
+    restart: always
     ports:
       - 9200:9200
     environment:
@@ -59,6 +60,7 @@ services:
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.22
     container_name: kibana
+    restart: always
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
@@ -68,11 +70,11 @@ services:
   logstash:
     image: docker.elastic.co/logstash/logstash:7.17.22
     container_name: logstash
+    restart: always
     volumes:
-      - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
     ports:
       - 5000:5000
-      - 9600:9600
     networks:
       - my-network
     depends_on:
